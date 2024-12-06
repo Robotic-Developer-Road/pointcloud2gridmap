@@ -43,7 +43,7 @@ def generate_launch_description():
             map_topic_arg,
             
 		    Node(
-				package='pcd2grid',
+				package='pointcloud2gridmap',
 				executable='pcd2grid_node',
 				name='pcd2gridmap_node',
 				output='log',
